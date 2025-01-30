@@ -53,9 +53,9 @@ int main() {
     if (comparisonResult == 0) {
         cout << "\nThe two strings are equal.";
     } else if (comparisonResult < 0) {
-        cout << "\nThe first string is lexicographically smaller than the second string.";
+        cout << "\nThe first string is alphabetically smaller than the second string.";
     } else {
-        cout << "\nThe first string is lexicographically greater than the second string.";
+        cout << "\nThe first string is alphabetically greater than the second string.";
     }
 
 
